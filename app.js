@@ -7,8 +7,6 @@ const mysql = require('mysql');
 const path = require('path')
 require('dotenv').config();
 
-example.disable("x-powered-by");
-
 // Import Middleware
 const logger = require('./middleware/logger')
 app.use(logger)
